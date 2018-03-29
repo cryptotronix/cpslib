@@ -19,6 +19,7 @@ notes.org
 nul
 scratch
 tags
+Makefile
 
 # For autotools build system
 .deps/
@@ -37,3 +38,9 @@ tags
 *.dSYM
 *.supp
 .valgrindrc
+.libs/
+/common.lo
+/libpslib.la
+/libtool
+m4/
+/pslib_linux.lo
