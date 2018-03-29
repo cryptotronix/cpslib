@@ -17,3 +17,13 @@ libpslib_includedir = $(includedir)
 libpslib_include_HEADERS = pslib.h
 
 libpslib_la_LDFLAGS = -version-info $(CPSLIB_SO_VERSION)
+
+# TODO driver assumes binary is build for coverage
+# CFLAGS += -fprofile-arcs -ftest-coverage
+# LDFLAGS = -shared --coverage
+
+# TESTS = driver
+# check_PROGRAMS = driver
+
+# driver_SOURCES = driver.c
+# driver_LDADD = libpslib.la
