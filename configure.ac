@@ -1,4 +1,4 @@
-AC_INIT([cpslib], [0.1.0], [noufal@nibrahim.net.in], [cpslib],
+AC_INIT([cpslib], [0.2.0], [noufal@nibrahim.net.in], [cpslib],
                   [https://github.com/hamon-in/cpslib])
 AC_PREREQ([2.59])
 AC_USE_SYSTEM_EXTENSIONS
@@ -16,7 +16,7 @@ AC_PROG_CC_C_O
 LT_INIT([])
 AC_PROG_MKDIR_P
 
-AC_SUBST([CPSLIB_SO_VERSION], [0:1:0])
+AC_SUBST([CPSLIB_SO_VERSION], [0:2:0])
 
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
